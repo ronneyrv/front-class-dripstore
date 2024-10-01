@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #eae7e7;
+}
+
+.logomarca {
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 20vw;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.barraDePesquisa {
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #eae7e7;
+}
+
+.barraDePesquisa::placeholder {
+    font-family: "Open Sans";
+    color: #a6a5a5;    
+}
+
+#searchIcon {
+    color: #a6a5a5;
+}
+
+.search {
+    background-color: #eae7e7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    width: 45vw;
+}
+
+.btnEntrar {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #c92071;
+    color: white;
+    font-weight: bold;
+    width: 6vw;
+    padding: 9px;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.login {
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans";
+    background-color: #ffffff;
+}
+
+.login a {
+    font-weight: 400;
+    color: #232324;
+}
+#cartIcon {
+    color: #c92071;
+    background-color: #ffffff;
+    margin-left: 3vw;
+}
+
+.links {
+    display: flex;
+    font-weight: 400;
+    padding: 10px; 
+    background-color: #ffffff;
+}
+
+.links a {
+    font-family: "Open Sans";
+    font-weight: 400;
+    background-color: #ffffff;
+    color: #232324;
+    padding-left: 3vw;
+    margin-bottom: 3vh;
+}
+
+.links a:hover {
+    color: #c92071;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    background-color: #ffffff;
+}
